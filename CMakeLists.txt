@@ -7,5 +7,5 @@ add_definitions(-std=c++17)
 project(PongGame)
 
 include_directories(${SDL2_INCLUDE_DIRS} src)
-add_executable(pongGame src/main.cpp)
+add_executable(pongGame src/main.cpp src/PongGame.cpp)
 target_link_libraries(pongGame)
