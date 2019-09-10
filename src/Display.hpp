@@ -20,6 +20,7 @@ class Display
     
     int mWidth = 0;
     int mHeight = 0;
+    int mResolution = 1;
     bool mRun = true;
 };
 
